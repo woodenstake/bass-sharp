@@ -1,0 +1,9 @@
+* A wuad opamp ngspice model
+.subckt TL074 1out 1in- 1in+ vcc+ 2in+ 2in- 2out 3out 3in- 3in+ vcc- 4in+ 4in- 4out
+
+.include TL071.301
+XA 1in+ 1in- vcc+ vcc- 1out TL071
+XB 2in+ 2in- vcc+ vcc- 2out TL071
+XC 3in+ 3in- vcc+ vcc- 3out TL071
+XD 4in+ 4in- vcc+ vcc- 4out TL071
+.ends
