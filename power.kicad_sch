@@ -3487,7 +3487,7 @@
 		(lib_id "Amplifier_Operational:LM13700")
 		(at 168.91 46.99 0)
 		(unit 5)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)

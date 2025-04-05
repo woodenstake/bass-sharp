@@ -31,6 +31,16 @@
           "trace_type": 257
         },
         {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(Net-_C7-Pad1_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(Net-_C7-Pad2_)",
+          "trace_type": 257
+        },
+        {
           "color": "rgb(228, 26, 28)",
           "signal": "V(TRIG)",
           "trace_type": 257
