@@ -4,7 +4,7 @@
     {
       "analysis": "TRAN",
       "commands": [
-        ".tran 1m 15m -2m 1m",
+        ".tran 10m 1 -50m",
         ".kicad adjustpaths",
         ".save all",
         ".probe alli",
@@ -22,17 +22,22 @@
       "traces": [
         {
           "color": "rgb(77, 175, 74)",
+          "signal": "I(D3)",
+          "trace_type": 258
+        },
+        {
+          "color": "rgb(152, 78, 163)",
           "signal": "V(Impact)",
           "trace_type": 257
         },
         {
           "color": "rgb(228, 26, 28)",
-          "signal": "V(Net-_Q2-E_)",
+          "signal": "V(TRIG)",
           "trace_type": 257
         },
         {
-          "color": "rgb(255, 255, 51)",
-          "signal": "V(Net-_Q4-C_)",
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(TrigIn)",
           "trace_type": 257
         }
       ]
