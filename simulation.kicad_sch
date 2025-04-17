@@ -817,6 +817,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text ".control\nset controlswait\nlinearize v(Output)\n* file, sample rate, format, multiplier, offset, oversampling\nsndparam /Users/viktor/dev/ee/bass#/out-from-simulation.wav 48000 wav32 3.5 0.0 2\nsndprint v(Output)\nrusage\n.endc\n"
+		(exclude_from_sim no)
+		(at 131.572 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5de7f612-6996-4ebf-9b4d-5bf09f16a685")
+	)
 	(junction
 		(at 36.83 97.79)
 		(diameter 0)
@@ -941,7 +952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0182e4bb-6320-4a81-a95a-cb54e60116f1")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 41.91 106.68 0)
 			(effects
 				(font
@@ -991,7 +1002,7 @@
 		(instances
 			(project ""
 				(path "/910cbb2e-c859-40f6-ada9-839bed89c71a/ed78e2ce-4e0d-40b3-9111-86efba882b34"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1278,7 +1289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72e2f9e1-b8fd-4095-a045-7d318229e46e")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 33.02 104.14 0)
 			(effects
 				(font
@@ -1328,7 +1339,7 @@
 		(instances
 			(project ""
 				(path "/910cbb2e-c859-40f6-ada9-839bed89c71a/ed78e2ce-4e0d-40b3-9111-86efba882b34"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1442,7 +1453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c713e43a-b061-4f85-9aff-f1406c2e88a0")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 34.29 58.42 0)
 			(effects
 				(font
@@ -1492,7 +1503,7 @@
 		(instances
 			(project ""
 				(path "/910cbb2e-c859-40f6-ada9-839bed89c71a/ed78e2ce-4e0d-40b3-9111-86efba882b34"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1508,7 +1519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d225750f-db61-4c44-ac5d-c11d61f7f79f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 41.91 87.63 0)
 			(effects
 				(font
@@ -1558,7 +1569,7 @@
 		(instances
 			(project ""
 				(path "/910cbb2e-c859-40f6-ada9-839bed89c71a/ed78e2ce-4e0d-40b3-9111-86efba882b34"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
